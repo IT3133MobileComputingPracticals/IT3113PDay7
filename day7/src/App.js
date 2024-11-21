@@ -1,9 +1,10 @@
 import './App.css';
+import Child from './Child'
 import {useState} from 'react';
 
 function App() {
   const [childname,setChildname]=useState("Default");
-  const recieveName=(name)=>{
+  const receiveName=(name)=>{
     setChildname(name);
   }
   return (
